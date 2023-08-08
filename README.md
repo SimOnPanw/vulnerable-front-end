@@ -4,19 +4,6 @@
 
 To create the logging functionality needed for the new website, you have decided to reach for a third party open source software package called 'morgan'. This package provides HTTP request logger middleware functionality.
 
-## [OPTIONAL] Use Github Codespaces
-
-- Click the `<> Code button`, then click the `Codespaces` tab.
-![create-codespace](./docs/create-codespaces.png)
-
-- Click `Create codespace on main`.
-
-- It will start building a container based on the `./devcontainer/Dockerfile`
-![build-codespace](./docs/build-codespaces.png)
-
-- Once the build is completed, your VS Code will start in your browser
-![started-codespace](./docs/started-codespaces.png)
-
 ## Create a new branch
 
 ```
@@ -81,3 +68,17 @@ git checkout main
 git branch -D ccs-feature-branch
 git push origin --delete ccs-feature-branch
 ```
+
+
+## [OPTIONAL] Use Github Codespaces
+
+- Click the `<> Code button`, then click the `Codespaces` tab.
+![create-codespace](./docs/create-codespaces.png)
+
+- Click `Create codespace on main`.
+
+- It will start building a container based on the `./devcontainer/Dockerfile`
+![build-codespace](./docs/build-codespaces.png)
+
+- Once the build is completed, your VS Code will start in your browser
+![started-codespace](./docs/started-codespaces.png)
